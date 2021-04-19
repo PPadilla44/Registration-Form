@@ -10,71 +10,72 @@
     <h1>Registration Form</h1>
     <form>
         <div>
-        <h2>
-            <label for="first_name">First Name: * </label>
-            <input type="text" name="first_name">
-        </h2>   
+            <h2>
+                <label for="first_name">First Name: * </label>
+                <input type="text" name="first_name" id="first_name">
+            </h2>
         </div>
         <div>
             <h2>
-            <label>Last Name: * </label>
-        <input type="text" name="last_name">
-        </h2> 
-    </div>
-    <div>
-        <h2>
-            <label>Email Address: * </label>
-            <input type="email" name="email">
-        </h2> 
-    </div>
-    <div>
-        <h2>
-            <label>Password: * </label>
-            <input type="password" name="password">
-        </h2> 
-    </div>
-    <div>
-        <h2>
-            <label>Confirm Password: * </label>
-            <input type="password" name="password">
-        </h2> 
-    </div>
-    <div>
-        <h2>
-            <label>Birthday: </label> 
-            <input type="date" name="dob"></h2> 
-    </div>
-    <div>
-        <h2>Gender Identity:</h2>
-        <h3>
-            <input type="radio" name="gender" value="male" id="male">
-            <label for="male">Male</label>
-            <input type="radio" name="gender" value="female" id="female">
-            <label for="female">Female</label>
-            <input type="radio" name="gender" value="nonbinary" id="nonbinary">
-            <label for="nonbinary">Non-binary</label>
-            <input type="radio" name="gender" value="other" id="other">
-            <label for="other">I prefer not to answer</label>
-        </h3>
-    </div>
-    <div>
-        <h2>A short description about myself:</h2>
-        <textarea name="comment" cols="60" rows="5"></textarea>
-    </div>
-    <div>
-        <h2>Favorite Language: 
-            <select name="language">
-                <option>JavaScript</option>
-                <option>Java</option>
-            </select>
-        </h2>
-    </div>
-    <div>
-        <input type="checkbox" name="update" id="update">
-        <label for="update">Yes, I would like to receive periodic updates</label>
-    </div>
-    <input type="submit" value="Create Account">
-    <p>* indicates a required field</p>
-        </form>
+                <label for="last_name">Last Name: * </label>
+                <input type="text" name="last_name" id="last_name">
+            </h2> 
+        </div>
+        <div>
+            <h2>
+                <label for="email">Email Address: * </label>
+                <input type="email" name="email" id="email">
+            </h2> 
+        </div>
+        <div>
+            <h2>
+                <label for="pass">Password: * </label>
+                <input type="password" name="pass" id="pass">
+            </h2> 
+        </div>
+        <div>
+            <h2>
+                <label for="pass">Confirm Password: * </label>
+                <input type="password" name="pass" id="passw">
+            </h2> 
+        </div>
+        <div>
+            <h2>
+                <label for="dob">Birthday: </label> 
+                <input type="date" name="dob" id="dob">
+            </h2> 
+        </div>
+        <div>
+            <h2>Gender Identity:</h2>
+            <h3>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="nonbinary" id="nonbinary">
+                <label for="nonbinary">Non-binary</label>
+                <input type="radio" name="gender" value="other" id="other">
+                <label for="other">I prefer not to answer</label>
+            </h3>
+        </div>
+        <div>
+            <h2>A short description about myself:</h2>
+            <textarea name="comment" cols="60" rows="5"></textarea>
+        </div>
+        <div>
+            <h2>Favorite Language: 
+                <select name="language">
+                    <option>JavaScript</option>
+                    <option>Java</option>
+                </select>
+            </h2>
+        </div>
+        <div>
+            <input type="checkbox" name="update" id="update">
+            <label for="update">Yes, I would like to receive periodic updates</label>
+        </div>
+        <input type="submit" value="Create Account">
+        <p>* indicates a required field</p>
+    </form>
 </body>
 </html>
